@@ -192,6 +192,7 @@ a {
   -o-transition: transform 300ms ease-out;
   transition: transform 300ms ease-out;
   width: 100%;
+  height: auto;
   max-width: 760px;
 }
 
@@ -341,9 +342,9 @@ form {
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
-  width: 40%;
+  width: 30%;
   max-width: 600px;
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
@@ -411,6 +412,609 @@ form button {
 
 /*meida index*/
 
-@media screen {
+@media  (max-width: 1050px){
+  .hero h1 {
+    font-size: 34px;
+  }  
+  .cta {
+
+    max-width:400px;
+    margin-left: 5vw;
+    margin-top: 0.2vw;
+  }
+
+  .cta p {
+    font-weight: 350;
+    font-size: 1.4rem;
+    color: #3E3E3E;
+    opacity: 40%;
+  }
   
+  .cta h2 {
+    font-family: TT Commons;
+    font-weight: 600;
+    font-size: 2.0rem;
+    letter-spacing: -0.1rem;
+    margin: 1rem 0;
+  }
+  
+  .cta h4 {
+      font-size: 1.4rem;
+      font-family: TT Commons;
+      font-weight: 500;
+      color: #0f0f0f;
+  }
+  
+  .cta .explanation {
+    width: 370px;
+    margin-bottom: 4rem;
+    font-family: TT Commons;
+    font-weight: 350;
+    font-size: 1.6rem;
+    color: #0f0f0f;
+    opacity: 100%;
+    letter-spacing: -0.05rem;
+    
+  }
 }
+
+
+@media (max-width: 830px) {
+
+  .box {
+    width: 40%;
+    display: inline;
+  }
+
+  .cta {
+
+    max-width:300px;
+    margin-left: 5vw;
+    margin-top: 0.2vw;
+  }
+
+  .hero h1{
+    font-size: 30px;
+  }
+
+  .cta {
+
+    max-width:400px;
+    margin-left: 5vw;
+    margin-top: 0.2vw;
+  }
+
+  .cta p {
+    font-weight: 350;
+    font-size: 1.2rem;
+    color: #3E3E3E;
+    opacity: 40%;
+  }
+  
+  .cta h2 {
+    font-family: TT Commons;
+    font-weight: 600;
+    font-size: 2.0rem;
+    letter-spacing: -0.1rem;
+    margin: 1rem 0;
+  }
+  
+  .cta h4 {
+      font-size: 1.4rem;
+      font-family: TT Commons;
+      font-weight: 500;
+      color: #0f0f0f;
+  }
+  
+  .cta .explanation {
+    width: 370px;
+    margin-bottom: 4rem;
+    font-family: TT Commons;
+    font-weight: 350;
+    font-size: 1.8rem;
+    color: #0f0f0f;
+    opacity: 100%;
+    letter-spacing: -0.05rem;
+    
+  }
+
+}
+
+@media (max-width: 375px) {
+
+
+  .navbar {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0f0f0f;
+    width: 90vw;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 1rem 0;
+
+}
+
+.blue {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8DC2FF
+
+}
+
+.blue2 {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-weight: 500;
+  color: #8DC2FF
+}
+
+.gray {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-weight: 500;
+  color: #3E3E3E
+
+}
+
+.navbar-links ol { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-family: TT Commons;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0f0f0f;
+    display: block;
+    padding: 12px 16px;
+    
+}
+
+.navbar-links li a:hover {
+    color: #8DC2FF;
+  }
+
+
+#index-body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+#index-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    text-align: left;
+    font-family:  TT Commons;
+
+}
+
+
+
+
+
+  h1 {
+    margin: 0 auto;
+    font-family: TT Commons;
+    font-size: 1.4rem;
+    color: #0f0f0f;
+    text-align: left;
+     font-weight: 600;
+
+}
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    
+  }
+
+  .box {
+    width: 40%;
+    display: inline;
+  }
+
+  .cta {
+
+    max-width:300px;
+    margin-left: 2vw;
+    margin-top: 0.2vw;
+  }
+
+  .hero h1{
+    font-size: 30px;
+  }
+
+  .cta {
+    max-width:300px;
+    margin-left: 2vw;
+    margin-top: 0.1vw;
+  }
+
+  .cta p {
+    font-weight: 350;
+    font-size: 1.2rem;
+    color: #3E3E3E;
+    opacity: 40%;
+  }
+  
+  .cta h2 {
+    font-family: TT Commons;
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: -0.05rem;
+    margin: 0.5rem 0;
+  }
+  
+  .cta h4 {
+      font-size: 1.5rem;
+      font-family: TT Commons;
+      font-weight: 500;
+      color: #0f0f0f;
+      margin-bottom: 1.5rem;
+  }
+  
+  .cta .explanation {
+    width: 370px;
+    margin-bottom: 2.5rem;
+    font-family: TT Commons;
+    font-weight: 350;
+    font-size: 1.5rem;
+    color: #0f0f0f;
+    opacity: 100%;
+    letter-spacing: -0.05rem;
+    
+  }
+
+}
+
+
+/*media-about****************************************************************************/
+
+@media (max-width:1200px) {
+
+
+  #section-about  {
+ 
+    width: 75vw;
+    margin: 0 auto;
+  
+  }
+  
+  
+  .container_aboutme {
+  
+    justify-content: space-evenly;
+    margin: 100px 90px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+  
+  }
+  
+  .container_aboutme h1 {
+    font-size: 38px;
+    color: #0f0f0f;
+  }
+  
+  .aboutbox .seora-color {
+    font-size: 38px;
+    color: #8DC2FF;
+  
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 350;
+    font-family: TT Commons;
+    color: #3E3E3E;
+  }
+  
+  /*form*/
+  
+  .container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  form {
+    background: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 3vw;
+    width: 40%;
+    max-width: 600px;
+    border-radius: 5px;
+  
+  }
+  
+  
+  .aboutbox {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 1%;
+    align-items: center;
+  
+  }
+  
+  .aboutimg img {
+    float: right;
+    margin-top: -50%;
+    border-radius: 1%;
+    max-width: 70%;
+    display: none;
+  }
+  
+  
+  h3 {
+    padding-top: 20;
+    font-size: 26px;
+    font-family: TT Commons;
+    font-weight: 600;
+    color: #0f0f0f;
+  }
+  
+  form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline:none;
+    background: #fff;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 15px;
+    background: #8DC2FF;
+    color:#fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+  }
+  
+
+   
+form {
+  background: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw;
+  width: 40%;
+  max-width: 600px;
+  border-radius: 5px;
+
+}
+
+}
+
+
+@media (max-width:830px) {
+
+  .container_aboutme {
+  
+    justify-content: space-evenly;
+    margin: 100px 90px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+  
+  }
+  
+  .container_aboutme h1 {
+    font-size: 34px;
+    color: #0f0f0f;
+  }
+  
+  .aboutbox .seora-color {
+    font-size: 34px;
+    color: #8DC2FF;
+  
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 350;
+    font-family: TT Commons;
+    color: #3E3E3E;
+  }
+  
+  /*form*/
+  
+  .container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+
+  .aboutbox {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 1%;
+    align-items: center;
+  
+  }
+  
+  .aboutimg img {
+    float: right;
+    margin-top: -50%;
+    border-radius: 1%;
+    max-width: 70%;
+    display: none;
+  }
+  
+  
+  h3 {
+    padding-top: 20;
+    font-size: 24px;
+    font-family: TT Commons;
+    font-weight: 600;
+    color: #0f0f0f;
+  }
+  
+  form input, form textarea {
+    border: 0;
+    margin: 5px 0;
+    padding: 5px;
+    outline:none;
+    background: #fff;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px;
+    background: #8DC2FF;
+    color:#fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 10px auto 0;
+    border-radius: 30px;
+  }
+  
+
+   
+form {
+  background: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 3vw;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 5px;
+
+}
+
+}
+
+
+@media (max-width:375px) {
+
+  .container_aboutme {
+  
+   display: inline;
+    margin: 100px 90px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+  
+  }
+  
+  .container_aboutme h1 {
+    font-size: 34px;
+    color: #0f0f0f;
+  }
+  
+  .aboutbox .seora-color {
+    font-size: 34px;
+    color: #8DC2FF;
+  
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 350;
+    font-family: TT Commons;
+    color: #3E3E3E;
+  }
+  
+  /*form*/
+  
+  .container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+
+  .aboutbox {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 1%;
+    align-items: center;
+  
+  }
+  
+  .aboutimg img {
+    float: right;
+    margin-top: -50%;
+    border-radius: 1%;
+    max-width: 70%;
+    display: none;
+  }
+  
+  
+  h3 {
+    padding-top: 15px;
+    font-size: 22px;
+    font-family: TT Commons;
+    font-weight: 600;
+    color: #0f0f0f;
+  }
+  
+  form input, form textarea {
+    border: 0;
+    margin: 5px 0;
+    padding: 5px;
+    outline:none;
+    background: #fff;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 8px;
+    background: #8DC2FF;
+    color:#fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 80px;
+    margin: 10px auto 0;
+    border-radius: 30px;
+  }
+  
+
+   
+form {
+  background: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 5px;
+  display:flex
+
+}
+
+}
+  
+  
